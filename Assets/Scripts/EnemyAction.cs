@@ -8,7 +8,7 @@ public class EnemyAction : MonoBehaviour {
     {
         if(collision.gameObject.tag == "Player")
         {
-           // LevelManager.Instance.LoadLevel("Lose");
+           LevelManager.Instance.LoadLevel("Lose");
         }
     }
 }
