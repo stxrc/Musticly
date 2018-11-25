@@ -7,7 +7,8 @@ public class MusicPlayer : MonoBehaviour {
 
     public AudioSource source;
 	// Use this for initialization
-	void Start () {
+	void Awake () {
         source.Play();
+        DontDestroyOnLoad(this);
 	}
 }
