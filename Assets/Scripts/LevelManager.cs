@@ -12,11 +12,14 @@ public class LevelManager : MonoBehaviour {
     public Image image;
 
     public List<Sprite> paints;
+    [HideInInspector]
     public bool full = false;
     [HideInInspector]
     public int currentPaint = 0;
     private int score = 0;
     public Text textScore;
+    public GameObject winScreen;
+    public GameObject menu;
 
     private void Awake()
     {
@@ -40,7 +43,8 @@ public class LevelManager : MonoBehaviour {
             textScore.text = score + "/4";
             if (score>=4)
             {
-               LoadLevel("Victory");
+                menu.SetActive(false);
+                winScreen.SetActive(true);
             }
             greyscale -= 0.25f;
             background.color = new Color(1,1,1,1-greyscale);

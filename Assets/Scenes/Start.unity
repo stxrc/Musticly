@@ -146,7 +146,7 @@ MonoBehaviour:
   paints: []
   full: 0
   currentPaint: 0
-  palette: []
+  textScore: {fileID: 0}
 --- !u!4 &83582559
 Transform:
   m_ObjectHideFlags: 0
@@ -515,3 +515,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1897370690
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4219241387831266, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 319.46002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219241387831266, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 107.52581
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219241387831266, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2.9993281
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219241387831266, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219241387831266, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219241387831266, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219241387831266, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219241387831266, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 82772254718164512, guid: 65eca01c8be9dfa40bb1f25659ff55a9,
+        type: 2}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65eca01c8be9dfa40bb1f25659ff55a9, type: 2}
+  m_IsPrefabAsset: 0
