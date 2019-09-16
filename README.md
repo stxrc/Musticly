@@ -1,5 +1,5 @@
 # Musticly
-This project was made during for the Game Jam challenge in the Junction hackathon
+This project was made for the Game Jam challenge at the Junction Hackathon in Finland.
 
 Sample Gameplay Images below:
 
